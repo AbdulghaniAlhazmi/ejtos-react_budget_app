@@ -25,7 +25,7 @@ const Budget = () => {
 
     return (
         <div className='alert alert-secondary'>
-            <span>Budget: £{currency}
+            <span>Budget: {currency}
             <input
             defaultValue ={budget}
             max ="20000"
